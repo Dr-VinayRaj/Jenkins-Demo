@@ -14,11 +14,6 @@ pipeline {
             }
         }
 
-        stage('Run') {
-            steps {
-                echo 'Running application...'
-                bat 'python app.py'
-            }
         }
     }
 }
